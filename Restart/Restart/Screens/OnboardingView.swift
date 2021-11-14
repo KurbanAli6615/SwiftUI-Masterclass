@@ -57,7 +57,7 @@ struct OnboardingView: View {
                 ZStack {
                     
                     CircleGroupView(shapeColor: .white, opacity: 0.2)
-                        .offset(x: imageOffset.width * -1)
+                        .offset(x: imageOffset.width * -1 )
                         .blur(radius: abs(imageOffset.width / 10))
                         .animation(.easeOut(duration: 1), value: imageOffset)
                     
@@ -147,7 +147,6 @@ struct OnboardingView: View {
                                 .onChanged { gesture in
                                     if gesture.translation.width > 0 && buttonOffset <= buttonWith - 80 {
                                         buttonOffset = gesture.translation.width
-                                        
                                     }
                                 }
                                 .onEnded { _ in

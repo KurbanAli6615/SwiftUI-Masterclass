@@ -12,17 +12,19 @@ struct HomeView: View {
     @AppStorage("onboarding") var isOnboardingViewActive:Bool = true
     
     @State private var isAnimating: Bool = false
-    
+    @State private var isAnimatingForButton: Bool = false
+
     //  MARK: - Body
     
     var body: some View {
+        
         VStack (spacing: 20) {
            
             //  MARK: - Header
             
             Spacer()
             ZStack {
-                CircleGroupView(shapeColor: .gray, opacity: 0.2)
+                CircleGroupView(shapeColor: .gray, opacity: 0.3)
 
                 Image("character-2")
                     .resizable()
@@ -64,8 +66,12 @@ struct HomeView: View {
             .buttonStyle(.borderedProminent)
             .buttonBorderShape(.capsule)
             .controlSize(.large)
+            .offset(y: isAnimatingForButton ? 0 : 40)
+            .opacity(isAnimatingForButton ? 1 : 0)
+            .animation(.easeOut(duration: 0.5), value: isAnimatingForButton)
         }
         .onAppear(perform: {
+            isAnimatingForButton = true
             DispatchQueue.main.asyncAfter(deadline: .now() + 0.5, execute: {
                 isAnimating = true
             })

@@ -41,6 +41,7 @@ struct FruitDetailView: View {
                         
                         //  MARK:  Nutrient
                         
+                        FruitsNutrientsView(fruit: fruit)
                         //  MARK: Subheadlines
                         
                         Text("Learn More about \(fruit.title.uppercased())")
@@ -65,7 +66,7 @@ struct FruitDetailView: View {
                 .navigationBarHidden(true)
             }
             .edgesIgnoringSafeArea(.top)
-        }
+        }.navigationViewStyle(StackNavigationViewStyle())
     }
 }
 

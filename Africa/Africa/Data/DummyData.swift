@@ -8,5 +8,6 @@
 import Foundation
 
 class DummyData {
-    static let animals:[Animal] = Bundle.main.decode("animals.json")
+    static let animals: [Animal] = Bundle.main.decode("animals.json")
+    static let videos: [Video] = Bundle.main.decode("videos.json")
 }

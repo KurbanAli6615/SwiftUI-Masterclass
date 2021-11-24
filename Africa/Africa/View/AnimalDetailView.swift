@@ -94,8 +94,8 @@ struct AnimalDetailView: View {
 }
 
 //  MARK: - Preview
+
 struct AnimalDetailView_Previews: PreviewProvider {
-    
     static var previews: some View {
         NavigationView{
             AnimalDetailView(animal: DummyData.animals[0]) 

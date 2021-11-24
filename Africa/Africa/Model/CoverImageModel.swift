@@ -7,7 +7,7 @@
 
 import Foundation
 
-// MARK: - WelcomeElement
+// MARK: - 
 struct CoverImage: Codable, Identifiable {
     let id: Int
     let name: String

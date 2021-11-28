@@ -46,6 +46,7 @@
 		06BA9E9B274E9DB00065103D /* VideoListItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06BA9E9A274E9DB00065103D /* VideoListItemView.swift */; };
 		06BA9E9D274EA5230065103D /* VideoPlayerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06BA9E9C274EA5230065103D /* VideoPlayerView.swift */; };
 		06BA9EA0274EA6130065103D /* VideoPlayerHalper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06BA9E9F274EA6130065103D /* VideoPlayerHalper.swift */; };
+		06C5EAB12753D36F00D7047B /* LocationModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06C5EAB02753D36F00D7047B /* LocationModel.swift */; };
 		06F316F2274BF5AE00B21D3D /* ExternalWebLinkView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06F316F1274BF5AE00B21D3D /* ExternalWebLinkView.swift */; };
 /* End PBXBuildFile section */
 
@@ -91,6 +92,7 @@
 		06BA9E9A274E9DB00065103D /* VideoListItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoListItemView.swift; sourceTree = "<group>"; };
 		06BA9E9C274EA5230065103D /* VideoPlayerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoPlayerView.swift; sourceTree = "<group>"; };
 		06BA9E9F274EA6130065103D /* VideoPlayerHalper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoPlayerHalper.swift; sourceTree = "<group>"; };
+		06C5EAB02753D36F00D7047B /* LocationModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationModel.swift; sourceTree = "<group>"; };
 		06F316F1274BF5AE00B21D3D /* ExternalWebLinkView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExternalWebLinkView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -221,6 +223,7 @@
 				065E2B05274571AB004355BA /* CoverImageModel.swift */,
 				065E2B0C27457826004355BA /* AnimalModel.swift */,
 				06BA9E98274E9D060065103D /* VideoModel.swift */,
+				06C5EAB02753D36F00D7047B /* LocationModel.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -343,6 +346,7 @@
 				065E2B0D27457826004355BA /* AnimalModel.swift in Sources */,
 				065E2AF427456619004355BA /* Colors.swift in Sources */,
 				065E2B0927457255004355BA /* CodableBundleExt.swift in Sources */,
+				06C5EAB12753D36F00D7047B /* LocationModel.swift in Sources */,
 				06BA9EA0274EA6130065103D /* VideoPlayerHalper.swift in Sources */,
 				06833920274BEFBF00C1AC62 /* InsetMapView.swift in Sources */,
 				065E2B0327456F8B004355BA /* CoverImageView.swift in Sources */,

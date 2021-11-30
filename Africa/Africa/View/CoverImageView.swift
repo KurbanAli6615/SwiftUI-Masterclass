@@ -10,7 +10,9 @@ import SwiftUI
 struct CoverImageView: View {
     
     //  MARK: - Properties
-    
+    private let timer = Timer.publish(every: 3, on: .main, in: .common).autoconnect()
+    @State private var selection = 0
+
     let coverImages:[CoverImage] = Bundle.main.decode("covers.json")
     
     //  MARK: - Body

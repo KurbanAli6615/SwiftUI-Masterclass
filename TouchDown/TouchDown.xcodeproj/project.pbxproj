@@ -34,6 +34,10 @@
 		0679F69E27561969005B4636 /* ProductItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0679F69D27561969005B4636 /* ProductItemView.swift */; };
 		0679F6A027561F80005B4636 /* BrandItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0679F69F27561F80005B4636 /* BrandItemView.swift */; };
 		0679F6A227562177005B4636 /* BrandGridView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0679F6A127562177005B4636 /* BrandGridView.swift */; };
+		06B6D48627592CDF00138D51 /* ProductDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06B6D48527592CDF00138D51 /* ProductDetailView.swift */; };
+		06B6D488275930AF00138D51 /* NavigationBarDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06B6D487275930AF00138D51 /* NavigationBarDetailView.swift */; };
+		06B6D48A2759317600138D51 /* HeaderDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06B6D4892759317600138D51 /* HeaderDetailView.swift */; };
+		06B6D48C2759326900138D51 /* TopPartDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06B6D48B2759326900138D51 /* TopPartDetailView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -66,6 +70,10 @@
 		0679F69D27561969005B4636 /* ProductItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductItemView.swift; sourceTree = "<group>"; };
 		0679F69F27561F80005B4636 /* BrandItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BrandItemView.swift; sourceTree = "<group>"; };
 		0679F6A127562177005B4636 /* BrandGridView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BrandGridView.swift; sourceTree = "<group>"; };
+		06B6D48527592CDF00138D51 /* ProductDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductDetailView.swift; sourceTree = "<group>"; };
+		06B6D487275930AF00138D51 /* NavigationBarDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationBarDetailView.swift; sourceTree = "<group>"; };
+		06B6D4892759317600138D51 /* HeaderDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderDetailView.swift; sourceTree = "<group>"; };
+		06B6D48B2759326900138D51 /* TopPartDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopPartDetailView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -156,6 +164,7 @@
 			children = (
 				0679F6582755F287005B4636 /* TouchDownApp.swift */,
 				0679F65A2755F287005B4636 /* ContentView.swift */,
+				06B6D48527592CDF00138D51 /* ProductDetailView.swift */,
 			);
 			path = App;
 			sourceTree = "<group>";
@@ -182,6 +191,9 @@
 		0679F6762755F46C005B4636 /* Details */ = {
 			isa = PBXGroup;
 			children = (
+				06B6D487275930AF00138D51 /* NavigationBarDetailView.swift */,
+				06B6D4892759317600138D51 /* HeaderDetailView.swift */,
+				06B6D48B2759326900138D51 /* TopPartDetailView.swift */,
 			);
 			path = Details;
 			sourceTree = "<group>";
@@ -284,11 +296,15 @@
 				0679F69B275617F3005B4636 /* TitleView.swift in Sources */,
 				0679F69E27561969005B4636 /* ProductItemView.swift in Sources */,
 				0679F6A227562177005B4636 /* BrandGridView.swift in Sources */,
+				06B6D48A2759317600138D51 /* HeaderDetailView.swift in Sources */,
+				06B6D48C2759326900138D51 /* TopPartDetailView.swift in Sources */,
 				0679F686275602D5005B4636 /* PlayerModel.swift in Sources */,
 				0679F6902756054E005B4636 /* FeaturedItemView.swift in Sources */,
+				06B6D488275930AF00138D51 /* NavigationBarDetailView.swift in Sources */,
 				0679F67E2755F5DF005B4636 /* FooterView.swift in Sources */,
 				0679F69227560626005B4636 /* FeaturedTabView.swift in Sources */,
 				0679F6592755F287005B4636 /* TouchDownApp.swift in Sources */,
+				06B6D48627592CDF00138D51 /* ProductDetailView.swift in Sources */,
 				0679F6A027561F80005B4636 /* BrandItemView.swift in Sources */,
 				0679F67C2755F4E8005B4636 /* Constants.swift in Sources */,
 				0679F6992756158D005B4636 /* SectionView.swift in Sources */,

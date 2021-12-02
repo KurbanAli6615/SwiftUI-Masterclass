@@ -8,6 +8,7 @@
 import SwiftUI
 
 //  MARK: - DATA
+let sampleProduct = DataHalper.products.first!
 
 
 //  MARK: - Color

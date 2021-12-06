@@ -10,13 +10,15 @@ import SwiftUI
 struct HeaderDetailView: View {
     //  MARK: - Properties
     
+    @EnvironmentObject var shop: Shop
+    
     //  MARK: - Body
 
     var body: some View {
         VStack (alignment: .center, spacing: 10){
             Text("Productive Gear")
             
-            Text(sampleProduct.name)
+            Text( shop.selectedProduct?.name ?? sampleProduct.name)
                 .font(.largeTitle)
                 .fontWeight(.black)
             

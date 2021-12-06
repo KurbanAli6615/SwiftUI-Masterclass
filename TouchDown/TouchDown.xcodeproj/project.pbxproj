@@ -34,6 +34,11 @@
 		0679F69E27561969005B4636 /* ProductItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0679F69D27561969005B4636 /* ProductItemView.swift */; };
 		0679F6A027561F80005B4636 /* BrandItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0679F69F27561F80005B4636 /* BrandItemView.swift */; };
 		0679F6A227562177005B4636 /* BrandGridView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0679F6A127562177005B4636 /* BrandGridView.swift */; };
+		06B25526275E72BB00558C9F /* CustomShape.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06B25525275E72BB00558C9F /* CustomShape.swift */; };
+		06B25528275E783100558C9F /* RatingsSizesDetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06B25527275E783100558C9F /* RatingsSizesDetailsView.swift */; };
+		06B2552A275E7B3900558C9F /* QuantityFavouriteDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06B25529275E7B3900558C9F /* QuantityFavouriteDetailView.swift */; };
+		06B2552C275E7D4800558C9F /* AddToCardDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06B2552B275E7D4800558C9F /* AddToCardDetailView.swift */; };
+		06B2552E275E800000558C9F /* Shop.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06B2552D275E7FFF00558C9F /* Shop.swift */; };
 		06B6D48627592CDF00138D51 /* ProductDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06B6D48527592CDF00138D51 /* ProductDetailView.swift */; };
 		06B6D488275930AF00138D51 /* NavigationBarDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06B6D487275930AF00138D51 /* NavigationBarDetailView.swift */; };
 		06B6D48A2759317600138D51 /* HeaderDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06B6D4892759317600138D51 /* HeaderDetailView.swift */; };
@@ -70,6 +75,11 @@
 		0679F69D27561969005B4636 /* ProductItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductItemView.swift; sourceTree = "<group>"; };
 		0679F69F27561F80005B4636 /* BrandItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BrandItemView.swift; sourceTree = "<group>"; };
 		0679F6A127562177005B4636 /* BrandGridView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BrandGridView.swift; sourceTree = "<group>"; };
+		06B25525275E72BB00558C9F /* CustomShape.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomShape.swift; sourceTree = "<group>"; };
+		06B25527275E783100558C9F /* RatingsSizesDetailsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RatingsSizesDetailsView.swift; sourceTree = "<group>"; };
+		06B25529275E7B3900558C9F /* QuantityFavouriteDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuantityFavouriteDetailView.swift; sourceTree = "<group>"; };
+		06B2552B275E7D4800558C9F /* AddToCardDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddToCardDetailView.swift; sourceTree = "<group>"; };
+		06B2552D275E7FFF00558C9F /* Shop.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Shop.swift; sourceTree = "<group>"; };
 		06B6D48527592CDF00138D51 /* ProductDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductDetailView.swift; sourceTree = "<group>"; };
 		06B6D487275930AF00138D51 /* NavigationBarDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationBarDetailView.swift; sourceTree = "<group>"; };
 		06B6D4892759317600138D51 /* HeaderDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderDetailView.swift; sourceTree = "<group>"; };
@@ -194,6 +204,9 @@
 				06B6D487275930AF00138D51 /* NavigationBarDetailView.swift */,
 				06B6D4892759317600138D51 /* HeaderDetailView.swift */,
 				06B6D48B2759326900138D51 /* TopPartDetailView.swift */,
+				06B25527275E783100558C9F /* RatingsSizesDetailsView.swift */,
+				06B25529275E7B3900558C9F /* QuantityFavouriteDetailView.swift */,
+				06B2552B275E7D4800558C9F /* AddToCardDetailView.swift */,
 			);
 			path = Details;
 			sourceTree = "<group>";
@@ -210,6 +223,8 @@
 			isa = PBXGroup;
 			children = (
 				0679F67B2755F4E8005B4636 /* Constants.swift */,
+				06B25525275E72BB00558C9F /* CustomShape.swift */,
+				06B2552D275E7FFF00558C9F /* Shop.swift */,
 			);
 			path = Utility;
 			sourceTree = "<group>";
@@ -291,15 +306,19 @@
 				0679F69627560FE8005B4636 /* CategoryGridView.swift in Sources */,
 				0679F69427560AA6005B4636 /* CategoryItemView.swift in Sources */,
 				0679F65B2755F287005B4636 /* ContentView.swift in Sources */,
+				06B2552E275E800000558C9F /* Shop.swift in Sources */,
 				0679F6822755FCDE005B4636 /* LogoView.swift in Sources */,
 				0679F68E275603EE005B4636 /* CodableBundleExt.swift in Sources */,
 				0679F69B275617F3005B4636 /* TitleView.swift in Sources */,
+				06B2552A275E7B3900558C9F /* QuantityFavouriteDetailView.swift in Sources */,
 				0679F69E27561969005B4636 /* ProductItemView.swift in Sources */,
 				0679F6A227562177005B4636 /* BrandGridView.swift in Sources */,
 				06B6D48A2759317600138D51 /* HeaderDetailView.swift in Sources */,
 				06B6D48C2759326900138D51 /* TopPartDetailView.swift in Sources */,
 				0679F686275602D5005B4636 /* PlayerModel.swift in Sources */,
+				06B25528275E783100558C9F /* RatingsSizesDetailsView.swift in Sources */,
 				0679F6902756054E005B4636 /* FeaturedItemView.swift in Sources */,
+				06B25526275E72BB00558C9F /* CustomShape.swift in Sources */,
 				06B6D488275930AF00138D51 /* NavigationBarDetailView.swift in Sources */,
 				0679F67E2755F5DF005B4636 /* FooterView.swift in Sources */,
 				0679F69227560626005B4636 /* FeaturedTabView.swift in Sources */,
@@ -312,6 +331,7 @@
 				0679F68C2756039E005B4636 /* Product.swift in Sources */,
 				0679F68A27560392005B4636 /* BrandModel.swift in Sources */,
 				0679F68827560381005B4636 /* CategoryModel.swift in Sources */,
+				06B2552C275E7D4800558C9F /* AddToCardDetailView.swift in Sources */,
 				0679F6802755FB50005B4636 /* NavigationBarView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

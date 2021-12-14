@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		060831892768FEB90020A42C /* BackgroundImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 060831882768FEB90020A42C /* BackgroundImageView.swift */; };
+		0608318B2768FFAD0020A42C /* NewTaskItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0608318A2768FFAD0020A42C /* NewTaskItemView.swift */; };
+		0608318D276906200020A42C /* BlankView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0608318C276906200020A42C /* BlankView.swift */; };
 		0609C6382767B54800A8FEFC /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0609C6372767B54800A8FEFC /* Constants.swift */; };
 		0609C63A2767BC5B00A8FEFC /* HideKeyboard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0609C6392767BC5B00A8FEFC /* HideKeyboard.swift */; };
 		06A362242761176C00AD228D /* DevoteApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06A362232761176C00AD228D /* DevoteApp.swift */; };
@@ -21,6 +24,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		060831882768FEB90020A42C /* BackgroundImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackgroundImageView.swift; sourceTree = "<group>"; };
+		0608318A2768FFAD0020A42C /* NewTaskItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewTaskItemView.swift; sourceTree = "<group>"; };
+		0608318C276906200020A42C /* BlankView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlankView.swift; sourceTree = "<group>"; };
 		0609C6372767B54800A8FEFC /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		0609C6392767BC5B00A8FEFC /* HideKeyboard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HideKeyboard.swift; sourceTree = "<group>"; };
 		06A362202761176C00AD228D /* Devote.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Devote.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -102,6 +108,9 @@
 			isa = PBXGroup;
 			children = (
 				06A362252761176C00AD228D /* ContentView.swift */,
+				060831882768FEB90020A42C /* BackgroundImageView.swift */,
+				0608318A2768FFAD0020A42C /* NewTaskItemView.swift */,
+				0608318C276906200020A42C /* BlankView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -212,11 +221,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				0609C6382767B54800A8FEFC /* Constants.swift in Sources */,
+				060831892768FEB90020A42C /* BackgroundImageView.swift in Sources */,
 				06A3622D2761176E00AD228D /* Persistence.swift in Sources */,
 				06A362262761176C00AD228D /* ContentView.swift in Sources */,
+				0608318D276906200020A42C /* BlankView.swift in Sources */,
 				06A362302761176E00AD228D /* Devote.xcdatamodeld in Sources */,
 				0609C63A2767BC5B00A8FEFC /* HideKeyboard.swift in Sources */,
 				06A362242761176C00AD228D /* DevoteApp.swift in Sources */,
+				0608318B2768FFAD0020A42C /* NewTaskItemView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
